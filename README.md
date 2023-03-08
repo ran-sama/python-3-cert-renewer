@@ -13,6 +13,7 @@ https://github.com/acmesh-official/acme.sh
 ```
 wget https://raw.githubusercontent.com/acmesh-official/acme.sh/master/acme.sh
 chmod +x acme.sh
+chmod +x certfox.py
 ```
 
 Use with:
