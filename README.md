@@ -1,5 +1,5 @@
-# python3-cert-renewer
-A python3 script to renew letsencrypt certs. 
+# python-3-cert-renewer
+A Python 3 script to renew letsencrypt certs. 
 
 Overengineered but with nice features:
 
