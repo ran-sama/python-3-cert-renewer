@@ -1,7 +1,5 @@
 # python-3-certbot-virtualenv
-Using a Debian headless server is very enjoyable, until you run into the realization how outdated the stable packages are.
-
-Luckily if the package is part of the Python Package Index (PyPI) the mitigation for this is almost trivial, refer to these websites:
+Using a Debian headless server is very enjoyable, until you run into the realization how outdated the stable packages are. Luckily if the package is part of the Python Package Index (PyPI) the mitigation for this is almost trivial, refer to these websites:
 ```
 https://pypi.org/
 https://certbot.eff.org/
