@@ -58,8 +58,7 @@ Overengineered but with nice features:
 
 * checks if a cert needs to be renewed
 * can configure minimum lifetime (default 14 days)
-* will restart services associated with the certificate
-* can renew multiple domains independently
+* easy to add extra features
 
 Dependency:  
 https://github.com/acmesh-official/acme.sh  
