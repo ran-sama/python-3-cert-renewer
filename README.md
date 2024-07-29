@@ -61,8 +61,6 @@ Overengineered but with nice features:
 * checking is done locally and doesn't waste quota
 * easy to add extra features
 
-Dependency:  
-https://github.com/acmesh-official/acme.sh  
 ```
 chmod +x certfox.py
 sudo crontab -e -u ran
