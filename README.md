@@ -24,7 +24,7 @@ You should see that your terminal session is prefixed now with an indicator of t
 ```
 (certbotenv_1) ran@odroidhc1:~/certbotenv$
 ```
-We can start installing into this virtualenv now without breaking system packages, as virtualizing protects our *NIX OS:
+We can start installing into this virtualenv now without breaking system packages, as virtualizing (rather an isolated container) protects our *NIX OS:
 ```
 pip3 install certbot
 pip3 install certbot-dns-ionos
