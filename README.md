@@ -54,7 +54,7 @@ As you see, you have local copies or links to binaries that are isolated from th
 Don't pass all parameters in a oneliner as many people suggest. That just brings pain. Static files with your settings are portable across installations and can be easily rsynced if needed.
 
 ## certfox.py
-A Python 3 script to renew letsencrypt certs based on when they expiure, can be used as helper if you don't like the systemd timer of certbot. 
+A Python 3 script to renew letsencrypt certs based on when they expire, can be used as helper if you don't like the systemd timer of certbot. 
 
 Overengineered but with nice features:
 
