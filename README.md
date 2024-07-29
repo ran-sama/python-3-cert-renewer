@@ -58,14 +58,15 @@ Overengineered but with nice features:
 
 * checks if a cert needs to be renewed
 * can configure minimum lifetime (default 14 days)
+* checking is done locally and doesn't waste quota
 * easy to add extra features
 
 Dependency:  
 https://github.com/acmesh-official/acme.sh  
 ```
-wget https://raw.githubusercontent.com/acmesh-official/acme.sh/master/acme.sh
-chmod +x acme.sh
 chmod +x certfox.py
+sudo crontab -e -u ran
+30 2 * * * python3 /home/ran/certfox.py >> /home/ran/certfox_error.log
 ```
 
 Use with:
@@ -76,4 +77,3 @@ https://github.com/ran-sama/python3-https-tls1-3-microserver
 
 ## License
 Licensed under the WTFPL license.
-
